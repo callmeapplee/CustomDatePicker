@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FADCC2B02A5133D600E906A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADCC2AF2A5133D600E906A3 /* AppDelegate.swift */; };
+		FADCC2B22A5133D600E906A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADCC2B12A5133D600E906A3 /* SceneDelegate.swift */; };
+		FADCC2B42A5133D600E906A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADCC2B32A5133D600E906A3 /* ViewController.swift */; };
+		FADCC2B72A5133D600E906A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADCC2B52A5133D600E906A3 /* Main.storyboard */; };
+		FADCC2BA2A5133D600E906A3 /* CustomPickerDate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FADCC2B82A5133D600E906A3 /* CustomPickerDate.xcdatamodeld */; };
+		FADCC2BC2A5133D700E906A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FADCC2BB2A5133D700E906A3 /* Assets.xcassets */; };
+		FADCC2BF2A5133D700E906A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADCC2BD2A5133D700E906A3 /* LaunchScreen.storyboard */; };
+		FADCC2CA2A5133D700E906A3 /* CustomPickerDateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADCC2C92A5133D700E906A3 /* CustomPickerDateTests.swift */; };
+		FADCC2D42A5133D700E906A3 /* CustomPickerDateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADCC2D32A5133D700E906A3 /* CustomPickerDateUITests.swift */; };
+		FADCC2D62A5133D700E906A3 /* CustomPickerDateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADCC2D52A5133D700E906A3 /* CustomPickerDateUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FADCC2C62A5133D700E906A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FADCC2A42A5133D600E906A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FADCC2AB2A5133D600E906A3;
+			remoteInfo = CustomPickerDate;
+		};
+		FADCC2D02A5133D700E906A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FADCC2A42A5133D600E906A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FADCC2AB2A5133D600E906A3;
+			remoteInfo = CustomPickerDate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FADCC2AC2A5133D600E906A3 /* CustomPickerDate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomPickerDate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADCC2AF2A5133D600E906A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FADCC2B12A5133D600E906A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FADCC2B32A5133D600E906A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FADCC2B62A5133D600E906A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FADCC2B92A5133D600E906A3 /* CustomPickerDate.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CustomPickerDate.xcdatamodel; sourceTree = "<group>"; };
+		FADCC2BB2A5133D700E906A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FADCC2BE2A5133D700E906A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FADCC2C02A5133D700E906A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FADCC2C52A5133D700E906A3 /* CustomPickerDateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomPickerDateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADCC2C92A5133D700E906A3 /* CustomPickerDateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPickerDateTests.swift; sourceTree = "<group>"; };
+		FADCC2CF2A5133D700E906A3 /* CustomPickerDateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomPickerDateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADCC2D32A5133D700E906A3 /* CustomPickerDateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPickerDateUITests.swift; sourceTree = "<group>"; };
+		FADCC2D52A5133D700E906A3 /* CustomPickerDateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPickerDateUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FADCC2A92A5133D600E906A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADCC2C22A5133D700E906A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADCC2CC2A5133D700E906A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FADCC2A32A5133D600E906A3 = {
+			isa = PBXGroup;
+			children = (
+				FADCC2AE2A5133D600E906A3 /* CustomPickerDate */,
+				FADCC2C82A5133D700E906A3 /* CustomPickerDateTests */,
+				FADCC2D22A5133D700E906A3 /* CustomPickerDateUITests */,
+				FADCC2AD2A5133D600E906A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FADCC2AD2A5133D600E906A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FADCC2AC2A5133D600E906A3 /* CustomPickerDate.app */,
+				FADCC2C52A5133D700E906A3 /* CustomPickerDateTests.xctest */,
+				FADCC2CF2A5133D700E906A3 /* CustomPickerDateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FADCC2AE2A5133D600E906A3 /* CustomPickerDate */ = {
+			isa = PBXGroup;
+			children = (
+				FADCC2AF2A5133D600E906A3 /* AppDelegate.swift */,
+				FADCC2B12A5133D600E906A3 /* SceneDelegate.swift */,
+				FADCC2B32A5133D600E906A3 /* ViewController.swift */,
+				FADCC2B52A5133D600E906A3 /* Main.storyboard */,
+				FADCC2BB2A5133D700E906A3 /* Assets.xcassets */,
+				FADCC2BD2A5133D700E906A3 /* LaunchScreen.storyboard */,
+				FADCC2C02A5133D700E906A3 /* Info.plist */,
+				FADCC2B82A5133D600E906A3 /* CustomPickerDate.xcdatamodeld */,
+			);
+			path = CustomPickerDate;
+			sourceTree = "<group>";
+		};
+		FADCC2C82A5133D700E906A3 /* CustomPickerDateTests */ = {
+			isa = PBXGroup;
+			children = (
+				FADCC2C92A5133D700E906A3 /* CustomPickerDateTests.swift */,
+			);
+			path = CustomPickerDateTests;
+			sourceTree = "<group>";
+		};
+		FADCC2D22A5133D700E906A3 /* CustomPickerDateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FADCC2D32A5133D700E906A3 /* CustomPickerDateUITests.swift */,
+				FADCC2D52A5133D700E906A3 /* CustomPickerDateUITestsLaunchTests.swift */,
+			);
+			path = CustomPickerDateUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FADCC2AB2A5133D600E906A3 /* CustomPickerDate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FADCC2D92A5133D700E906A3 /* Build configuration list for PBXNativeTarget "CustomPickerDate" */;
+			buildPhases = (
+				FADCC2A82A5133D600E906A3 /* Sources */,
+				FADCC2A92A5133D600E906A3 /* Frameworks */,
+				FADCC2AA2A5133D600E906A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomPickerDate;
+			productName = CustomPickerDate;
+			productReference = FADCC2AC2A5133D600E906A3 /* CustomPickerDate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FADCC2C42A5133D700E906A3 /* CustomPickerDateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FADCC2DC2A5133D700E906A3 /* Build configuration list for PBXNativeTarget "CustomPickerDateTests" */;
+			buildPhases = (
+				FADCC2C12A5133D700E906A3 /* Sources */,
+				FADCC2C22A5133D700E906A3 /* Frameworks */,
+				FADCC2C32A5133D700E906A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FADCC2C72A5133D700E906A3 /* PBXTargetDependency */,
+			);
+			name = CustomPickerDateTests;
+			productName = CustomPickerDateTests;
+			productReference = FADCC2C52A5133D700E906A3 /* CustomPickerDateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FADCC2CE2A5133D700E906A3 /* CustomPickerDateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FADCC2DF2A5133D700E906A3 /* Build configuration list for PBXNativeTarget "CustomPickerDateUITests" */;
+			buildPhases = (
+				FADCC2CB2A5133D700E906A3 /* Sources */,
+				FADCC2CC2A5133D700E906A3 /* Frameworks */,
+				FADCC2CD2A5133D700E906A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FADCC2D12A5133D700E906A3 /* PBXTargetDependency */,
+			);
+			name = CustomPickerDateUITests;
+			productName = CustomPickerDateUITests;
+			productReference = FADCC2CF2A5133D700E906A3 /* CustomPickerDateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FADCC2A42A5133D600E906A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					FADCC2AB2A5133D600E906A3 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					FADCC2C42A5133D700E906A3 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = FADCC2AB2A5133D600E906A3;
+					};
+					FADCC2CE2A5133D700E906A3 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = FADCC2AB2A5133D600E906A3;
+					};
+				};
+			};
+			buildConfigurationList = FADCC2A72A5133D600E906A3 /* Build configuration list for PBXProject "CustomPickerDate" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FADCC2A32A5133D600E906A3;
+			productRefGroup = FADCC2AD2A5133D600E906A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FADCC2AB2A5133D600E906A3 /* CustomPickerDate */,
+				FADCC2C42A5133D700E906A3 /* CustomPickerDateTests */,
+				FADCC2CE2A5133D700E906A3 /* CustomPickerDateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FADCC2AA2A5133D600E906A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADCC2BF2A5133D700E906A3 /* LaunchScreen.storyboard in Resources */,
+				FADCC2BC2A5133D700E906A3 /* Assets.xcassets in Resources */,
+				FADCC2B72A5133D600E906A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADCC2C32A5133D700E906A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADCC2CD2A5133D700E906A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FADCC2A82A5133D600E906A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADCC2BA2A5133D600E906A3 /* CustomPickerDate.xcdatamodeld in Sources */,
+				FADCC2B42A5133D600E906A3 /* ViewController.swift in Sources */,
+				FADCC2B02A5133D600E906A3 /* AppDelegate.swift in Sources */,
+				FADCC2B22A5133D600E906A3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADCC2C12A5133D700E906A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADCC2CA2A5133D700E906A3 /* CustomPickerDateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADCC2CB2A5133D700E906A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADCC2D42A5133D700E906A3 /* CustomPickerDateUITests.swift in Sources */,
+				FADCC2D62A5133D700E906A3 /* CustomPickerDateUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FADCC2C72A5133D700E906A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FADCC2AB2A5133D600E906A3 /* CustomPickerDate */;
+			targetProxy = FADCC2C62A5133D700E906A3 /* PBXContainerItemProxy */;
+		};
+		FADCC2D12A5133D700E906A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FADCC2AB2A5133D600E906A3 /* CustomPickerDate */;
+			targetProxy = FADCC2D02A5133D700E906A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FADCC2B52A5133D600E906A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FADCC2B62A5133D600E906A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FADCC2BD2A5133D700E906A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FADCC2BE2A5133D700E906A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FADCC2D72A5133D700E906A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FADCC2D82A5133D700E906A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FADCC2DA2A5133D700E906A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N63NS5FA8N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CustomPickerDate/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tcell.CustomPickerDate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FADCC2DB2A5133D700E906A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N63NS5FA8N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CustomPickerDate/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tcell.CustomPickerDate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FADCC2DD2A5133D700E906A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N63NS5FA8N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tcell.CustomPickerDateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomPickerDate.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CustomPickerDate";
+			};
+			name = Debug;
+		};
+		FADCC2DE2A5133D700E906A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N63NS5FA8N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tcell.CustomPickerDateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomPickerDate.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CustomPickerDate";
+			};
+			name = Release;
+		};
+		FADCC2E02A5133D700E906A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N63NS5FA8N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tcell.CustomPickerDateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomPickerDate;
+			};
+			name = Debug;
+		};
+		FADCC2E12A5133D700E906A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N63NS5FA8N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tcell.CustomPickerDateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomPickerDate;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FADCC2A72A5133D600E906A3 /* Build configuration list for PBXProject "CustomPickerDate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADCC2D72A5133D700E906A3 /* Debug */,
+				FADCC2D82A5133D700E906A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FADCC2D92A5133D700E906A3 /* Build configuration list for PBXNativeTarget "CustomPickerDate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADCC2DA2A5133D700E906A3 /* Debug */,
+				FADCC2DB2A5133D700E906A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FADCC2DC2A5133D700E906A3 /* Build configuration list for PBXNativeTarget "CustomPickerDateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADCC2DD2A5133D700E906A3 /* Debug */,
+				FADCC2DE2A5133D700E906A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FADCC2DF2A5133D700E906A3 /* Build configuration list for PBXNativeTarget "CustomPickerDateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADCC2E02A5133D700E906A3 /* Debug */,
+				FADCC2E12A5133D700E906A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FADCC2B82A5133D600E906A3 /* CustomPickerDate.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FADCC2B92A5133D600E906A3 /* CustomPickerDate.xcdatamodel */,
+			);
+			currentVersion = FADCC2B92A5133D600E906A3 /* CustomPickerDate.xcdatamodel */;
+			path = CustomPickerDate.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FADCC2A42A5133D600E906A3 /* Project object */;
+}
