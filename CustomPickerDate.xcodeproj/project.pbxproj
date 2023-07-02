@@ -17,6 +17,7 @@
 		FADCC2CA2A5133D700E906A3 /* CustomPickerDateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADCC2C92A5133D700E906A3 /* CustomPickerDateTests.swift */; };
 		FADCC2D42A5133D700E906A3 /* CustomPickerDateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADCC2D32A5133D700E906A3 /* CustomPickerDateUITests.swift */; };
 		FADCC2D62A5133D700E906A3 /* CustomPickerDateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADCC2D52A5133D700E906A3 /* CustomPickerDateUITestsLaunchTests.swift */; };
+		FADCC2E32A51340300E906A3 /* DatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADCC2E22A51340300E906A3 /* DatePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		FADCC2CF2A5133D700E906A3 /* CustomPickerDateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomPickerDateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FADCC2D32A5133D700E906A3 /* CustomPickerDateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPickerDateUITests.swift; sourceTree = "<group>"; };
 		FADCC2D52A5133D700E906A3 /* CustomPickerDateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPickerDateUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FADCC2E22A51340300E906A3 /* DatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				FADCC2AF2A5133D600E906A3 /* AppDelegate.swift */,
 				FADCC2B12A5133D600E906A3 /* SceneDelegate.swift */,
 				FADCC2B32A5133D600E906A3 /* ViewController.swift */,
+				FADCC2E22A51340300E906A3 /* DatePicker.swift */,
 				FADCC2B52A5133D600E906A3 /* Main.storyboard */,
 				FADCC2BB2A5133D700E906A3 /* Assets.xcassets */,
 				FADCC2BD2A5133D700E906A3 /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FADCC2BA2A5133D600E906A3 /* CustomPickerDate.xcdatamodeld in Sources */,
+				FADCC2E32A51340300E906A3 /* DatePicker.swift in Sources */,
 				FADCC2B42A5133D600E906A3 /* ViewController.swift in Sources */,
 				FADCC2B02A5133D600E906A3 /* AppDelegate.swift in Sources */,
 				FADCC2B22A5133D600E906A3 /* SceneDelegate.swift in Sources */,
